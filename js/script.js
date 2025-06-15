@@ -39,7 +39,7 @@ tabsParrent.addEventListener('click', (event)=>{
 
 //-----------------------------------------------------------------------------------------------------------
 
-const deadLine = '2025-02-01'
+const deadLine = new Date() + 1036800000;
 
 function getTimeValues (finish){
     const difference = Date.parse(finish) - Date.parse(new Date());  //вычисляем разницу между теперешним временем и датой заданной как конечный дед лайн акции  
@@ -88,7 +88,7 @@ setTimer('.timer', deadLine)
 
 
 
-console.log(new Date())
+
 
 //--------------------------------кнопка для перемещения по сайту --------------------------------------------------
 
@@ -139,7 +139,7 @@ let modalCloser = function(){
         }
     })
 
-   //let timerForModalWindow = setTimeout(showModalWindow, 5000)    //добавляем вызов модального окна через 5 сек после открытия страницы 
+   let timerForModalWindow = setTimeout(showModalWindow, 5000)    //добавляем вызов модального окна через 5 сек после открытия страницы 
 
 
 
