@@ -39,10 +39,11 @@ tabsParrent.addEventListener('click', (event)=>{
 
 //-----------------------------------------------------------------------------------------------------------
 
-const deadLine = '2025-02-01'
+const deadLine = Date.parse(new Date())+ 1036800000;
+console.log(deadLine)
 
 function getTimeValues (finish){
-    const difference = Date.parse(finish) - Date.parse(new Date());  //вычисляем разницу между теперешним временем и датой заданной как конечный дед лайн акции  
+    const difference = finish - Date.parse(new Date());  //вычисляем разницу между теперешним временем и датой заданной как конечный дед лайн акции  
     const days = Math.floor(difference/(1000*60*60*24));
     const hours = Math.floor((difference/(1000*60*60)%24));
     const minutes = Math.floor((difference/1000/60)%60);
