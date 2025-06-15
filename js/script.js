@@ -96,7 +96,8 @@ setTimer('.timer', deadLine)
 const beckToTop = document.querySelector('.botton_to_top')
 
 beckToTop.addEventListener('click',()=>{
-    document.documentElement.scrollBy(0, 400)  //кнопка прокрутки по определенному колличеству пикселей с места где сейчас есть пользователь (первое значение по иксу второе по игрику )
+    document.documentElement.scrollTo(0, 0)  //кнопка прокрутки по определенному колличеству пикселей с места где сейчас есть пользователь (первое значение по иксу второе по игрику )
+    
 })
 
 

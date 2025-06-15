@@ -104,6 +104,6 @@ body{position: relative;}a{text-decoration:none}
 .modal__title{text-align:center;font-size:22px;text-transform:uppercase}
 .modal__input{display:block;margin:20px auto 20px auto;width:280px;height:50px;background:#fff;box-shadow:0 4px 15px rgba(0,0,0,.2);border:none;font-size:18px;text-align:center;padding:0 20px;outline:0}
 .modal .btn{display:block;width:280px;margin:0 auto} 
-.botton_to_top{position: sticky;top: 77%;left: 95%;width: 40px;height: 40px;background-color: #54ed39;border-radius: 50%;}
+.botton_to_top{position: sticky;top: 77%;left: 95%;width: 40px;height: 40px;background-color: #ffffff;border-radius: 50%;}
 .botton_to_top .arrow{position: absolute;top: 12px;left: 9px;width: 20px;height: 20px;border-left: 2px solid black;border-top: 2px solid black;transform: rotate(45deg);z-index: 1000000;}
 .visibylity_modal{display: block;}
